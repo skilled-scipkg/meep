@@ -1,0 +1,106 @@
+{
+  "compiled_package_id": "meep",
+  "evidence": {
+    "core_skills": [
+      "meep-inputs-and-modeling",
+      "meep-build-and-install",
+      "meep-simulation-workflows",
+      "meep-api-and-scripting",
+      "meep-getting-started",
+      "meep-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/meep-inputs-and-modeling.md",
+      "skills/.evidence/meep-build-and-install.md",
+      "skills/.evidence/meep-simulation-workflows.md",
+      "skills/.evidence/meep-api-and-scripting.md",
+      "skills/.evidence/meep-getting-started.md",
+      "skills/.evidence/meep-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc/docs",
+      "doc/bfast"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary user manual content is in doc/docs (mkdocs docs_dir).",
+      "Examples are in python/examples and scheme/examples; tutorial markdown is in doc/docs/Python_Tutorials and doc/docs/Scheme_Tutorials.",
+      "Generator script patched minimally to remove f-string backslash syntax errors for dry-run compatibility."
+    ],
+    "package_name": "meep",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "python",
+      "scheme",
+      "libpympb"
+    ],
+    "test_dirs": [
+      "tests",
+      "python/tests"
+    ],
+    "tutorial_dirs": [
+      "python/examples",
+      "scheme/examples",
+      "doc/docs/Python_Tutorials",
+      "doc/docs/Scheme_Tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep",
+  "validation": {
+    "core_skills_checked": [
+      "meep-inputs-and-modeling",
+      "meep-build-and-install",
+      "meep-simulation-workflows",
+      "meep-advanced-topics",
+      "meep-api-and-scripting",
+      "meep-getting-started"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/meep-meep/skills/meep-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "meep-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 44,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}

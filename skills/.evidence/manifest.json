@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "meep-inputs-and-modeling",
+    "meep-build-and-install",
+    "meep-simulation-workflows",
+    "meep-api-and-scripting",
+    "meep-getting-started",
+    "meep-examples-and-tutorials"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/meep-inputs-and-modeling.md",
+    "skills/.evidence/meep-build-and-install.md",
+    "skills/.evidence/meep-simulation-workflows.md",
+    "skills/.evidence/meep-api-and-scripting.md",
+    "skills/.evidence/meep-getting-started.md",
+    "skills/.evidence/meep-examples-and-tutorials.md"
+  ]
+}
